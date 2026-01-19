@@ -4,3 +4,6 @@ check:
 	ruff check .
 	mypy .
 	pre-commit run --all-files
+
+ingest-logs:
+	python src/usecases/ingest_logs.py
