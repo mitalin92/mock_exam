@@ -7,3 +7,6 @@ check:
 
 ingest-logs:
 	python src/usecases/ingest_logs.py
+
+stock-reports:
+	python src/usecases/stock_reports.py
